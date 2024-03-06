@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33920.266
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SubnetCaculator", "SubnetCaculator\SubnetCaculator.vcxproj", "{1EE393C9-3B50-4986-93BF-3B8B2BFC5F2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SubnetCaculatorExec", "SubnetCaculatorExec\SubnetCaculatorExec.vcxproj", "{9201F73C-B4D7-45E3-BAF4-FCDCF6E2D118}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SubnetCaculatorTest", "SubnetCaculatorTest\SubnetCaculatorTest.vcxproj", "{72E64FC5-FEE0-4CF8-B31B-CA799A723DBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +25,27 @@ Global
 		{1EE393C9-3B50-4986-93BF-3B8B2BFC5F2C}.Release|x64.Build.0 = Release|x64
 		{1EE393C9-3B50-4986-93BF-3B8B2BFC5F2C}.Release|x86.ActiveCfg = Release|Win32
 		{1EE393C9-3B50-4986-93BF-3B8B2BFC5F2C}.Release|x86.Build.0 = Release|Win32
+		{9201F73C-B4D7-45E3-BAF4-FCDCF6E2D118}.Debug|x64.ActiveCfg = Debug|x64
+		{9201F73C-B4D7-45E3-BAF4-FCDCF6E2D118}.Debug|x64.Build.0 = Debug|x64
+		{9201F73C-B4D7-45E3-BAF4-FCDCF6E2D118}.Debug|x86.ActiveCfg = Debug|Win32
+		{9201F73C-B4D7-45E3-BAF4-FCDCF6E2D118}.Debug|x86.Build.0 = Debug|Win32
+		{9201F73C-B4D7-45E3-BAF4-FCDCF6E2D118}.Release|x64.ActiveCfg = Release|x64
+		{9201F73C-B4D7-45E3-BAF4-FCDCF6E2D118}.Release|x64.Build.0 = Release|x64
+		{9201F73C-B4D7-45E3-BAF4-FCDCF6E2D118}.Release|x86.ActiveCfg = Release|Win32
+		{9201F73C-B4D7-45E3-BAF4-FCDCF6E2D118}.Release|x86.Build.0 = Release|Win32
+		{72E64FC5-FEE0-4CF8-B31B-CA799A723DBC}.Debug|x64.ActiveCfg = Debug|x64
+		{72E64FC5-FEE0-4CF8-B31B-CA799A723DBC}.Debug|x64.Build.0 = Debug|x64
+		{72E64FC5-FEE0-4CF8-B31B-CA799A723DBC}.Debug|x86.ActiveCfg = Debug|Win32
+		{72E64FC5-FEE0-4CF8-B31B-CA799A723DBC}.Debug|x86.Build.0 = Debug|Win32
+		{72E64FC5-FEE0-4CF8-B31B-CA799A723DBC}.Release|x64.ActiveCfg = Release|x64
+		{72E64FC5-FEE0-4CF8-B31B-CA799A723DBC}.Release|x64.Build.0 = Release|x64
+		{72E64FC5-FEE0-4CF8-B31B-CA799A723DBC}.Release|x86.ActiveCfg = Release|Win32
+		{72E64FC5-FEE0-4CF8-B31B-CA799A723DBC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89606FBB-2E58-4513-B6D5-BDD6935271F6}
 	EndGlobalSection
 EndGlobal
